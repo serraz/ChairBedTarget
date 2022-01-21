@@ -51,66 +51,6 @@ CreateThread(function()
         job = {"all"},
         distance = 3.5
     })
-    local delroadcone = {
-       	'prop_roadcone02a',
-    }
-	exports['qtarget']:AddTargetModel(delroadcone, {
-        options = {
-            {
-                event = "propie:rcone",
-                icon = "fas fa-clipboard",
-                label = "Remove Cone",
-                job = 'police',
-            },
-            {
-                event = "propie:rcone",
-                icon = "fas fa-clipboard",
-                label = "Remove Cone",
-                job = 'sheriff',
-            },
-        },
-        distance = 2.5
-    })
-    local delbarrier = {
-       	'prop_barrier_work06a',
-    }
-	exports['qtarget']:AddTargetModel(delbarrier, {
-        options = {
-            {
-                event = "propie:rbarrier",
-                icon = "fas fa-clipboard",
-                label = "Remove Barrier",
-                job = 'police',
-            },
-            {
-                event = "propie:rbarrier",
-                icon = "fas fa-clipboard",
-                label = "Remove Barrier",
-                job = 'sheriff',
-            },
-        },
-        distance = 2.5
-    })
-    local delsstrips = {
-       	'p_ld_stinger_s',
-    }
-	exports['qtarget']:AddTargetModel(delsstrips, {
-        options = {
-            {
-                event = "propie:rspikes",
-                icon = "fas fa-clipboard",
-                label = "Remove Road Spikes",
-                job = 'police',
-            },
-            {
-                event = "propie:rspikes",
-                icon = "fas fa-clipboard",
-                label = "Remove Road Spikes",
-                job = 'sheriff',
-            },
-        },
-        distance = 2.5
-    })
 
 end)
 
